@@ -35,7 +35,6 @@ static-website/ ├── index.html # Main webpage ├── style.css # CSS fo
 ## 🌐 Live Website Link
 You can view the live website at the following link:  
 [Live Website](https://maharshi08.github.io/my-static-website/)  
-_Replace `your-username` and `your-repo-name` with your GitHub username and repository name._
 
 ## 📌 Features
 - Fully responsive layout
