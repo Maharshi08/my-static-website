@@ -1,94 +1,114 @@
-/* Google Font */
-body {
-  font-family: 'Poppins', sans-serif;
+/* Reset and base styles */
+* {
   margin: 0;
-  background-color: #f8f9fa;
-  color: #333;
-  line-height: 1.6;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Layout container */
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Header */
 header {
-  background: #343a40;
-  color: white;
-  padding: 20px 0;
+  background: linear-gradient(135deg, #333, #444);
+  color: #fff;
   text-align: center;
+  padding: 30px 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 header h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 0 15px;
+  margin: 10px 15px;
 }
 
 nav ul li a {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background 0.3s;
 }
 
 nav ul li a:hover {
-  color: #ffd700;
+  background-color: #FFD700;
+  color: #333;
 }
 
-/* Main */
+/* Main content */
 main {
-  padding: 40px 0;
+  flex: 1;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 section {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 h2 {
   font-size: 2rem;
-  color: #212529;
   margin-bottom: 15px;
+  color: #222;
 }
 
 p {
   font-size: 1.1rem;
-  color: #495057;
+  color: #555;
+  line-height: 1.8;
 }
 
 /* Footer */
 footer {
-  background: #343a40;
-  color: #f8f9fa;
+  background-color: #222;
+  color: #eee;
   text-align: center;
-  padding: 15px 0;
-  margin-top: 40px;
+  padding: 20px;
+  margin-top: auto;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
 }
 
-/* Responsive */
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-
   header h1 {
     font-size: 2rem;
   }
 
-  h2 {
-    font-size: 1.5rem;
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li {
+    margin: 5px 0;
+  }
+
+  main {
+    padding: 20px 15px;
   }
 }
