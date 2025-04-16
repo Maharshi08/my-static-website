@@ -1,91 +1,94 @@
-/* General reset for margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Body and overall layout */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  /* Header styling */
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-  }
-  
+/* Google Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Layout container */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Main */
+main {
+  padding: 40px 0;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #212529;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+/* Footer */
+footer {
+  background: #343a40;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
   nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: block;
+    margin: 10px 0;
   }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
+
+  header h1 {
+    font-size: 2rem;
   }
-  
-  nav ul li a:hover {
-    color: #FFD700;
-  }
-  
-  /* Main content styling */
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 40px;
-  }
-  
+
   h2 {
-    font-size: 2em;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
   }
-  
-  p {
-    font-size: 1.1em;
-    color: #555;
-    line-height: 1.8;
-  }
-  
-  /* Footer styling */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  /* Mobile responsiveness */
-  @media (max-width: 768px) {
-    header h1 {
-      font-size: 2em;
-    }
-  
-    nav ul li {
-      display: block;
-      margin: 10px 0;
-    }
-  }
-  
+}
