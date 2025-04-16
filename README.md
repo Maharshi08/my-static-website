@@ -47,3 +47,6 @@ You can view the live website at the following link:
 1. Clone the repository:
    ```bash
    https://github.com/Maharshi08/my-static-website.git
+## 🖼 Screenshot
+![Website Screenshot](https://github.com/your-username/your-repo-name/raw/main/screenshot.png)
+
