@@ -48,5 +48,5 @@ You can view the live website at the following link:
    ```bash
    https://github.com/Maharshi08/my-static-website.git
 ## 🖼 Screenshot
-![Website Screenshot](https://github.com/your-username/your-repo-name/raw/main/screenshot.png)
+![Website Screenshot](https://github.com/Maharshi08/my-static-website/raw/main/screenshot.png)
 
